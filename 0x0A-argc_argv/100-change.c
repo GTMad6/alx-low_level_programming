@@ -38,4 +38,3 @@ int main(int argc, char **argv)
 	printf(" % d\n", mncoin);
 	return (0);
 }
-
