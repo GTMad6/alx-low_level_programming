@@ -6,9 +6,9 @@
  *
  * @s1: string one
  * @s2: string two
- * @n: number of element to concatenate from s2
+ * @n: no of element to concatenate from s2
  *
- * Return:  pointer to newly allocated space in memory
+ * Return: pointer to newly allocated space in memory
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -37,7 +37,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (k = 0; k < i; k++)
 		s[k] = s1[k];
 	for (k = 0; k < j; k++)
-		s[k + 1] = s2[k];
+		s[k + i] = s2[k];
 	s[i + j] = '\0';
 	return (s);
 }
