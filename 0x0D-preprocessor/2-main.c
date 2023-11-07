@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - prints ot file name of source code
- * Return: int 
+ * main - prints out file name of source code
+ * Return: Always 0 (Success) 
  */
 int main(void)
 {
